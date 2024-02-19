@@ -2,7 +2,7 @@
 Anticipatory Movement Visualization for VR Dancing
 
 
-###Dependencies
+### Dependencies
 **Project uses some 3rd party packages that can be found from the Unity Assest Store:**
 
 DoTween Pro 1.0.381, 
