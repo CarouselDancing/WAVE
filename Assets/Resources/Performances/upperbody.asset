@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ef23f63c880694caf30c03202d0407, type: 3}
+  m_Name: upperbody
+  m_EditorClassIdentifier: 
+  info: 
+  tempoMultiply: 1
+  everythingImportant: 0
+  importantParts:
+  - startBeat: 7
+    endBeat: 11
+    effectName: 
+  - startBeat: 15
+    endBeat: 15
+    effectName: 
+  - startBeat: 18
+    endBeat: 33
+    effectName: 
+  - startBeat: 49
+    endBeat: 63
+    effectName: 
+  - startBeat: 75
+    endBeat: 105
+    effectName: 
+  - startBeat: 123
+    endBeat: 123
+    effectName: 
+  - startBeat: 143
+    endBeat: 185
+    effectName: 
+  - startBeat: 188
+    endBeat: 189
+    effectName: 
+  - startBeat: 205
+    endBeat: 205
+    effectName: 
+  - startBeat: 210
+    endBeat: 237
+    effectName: 
+  - startBeat: 247
+    endBeat: 248
+    effectName: 
+  - startBeat: 253
+    endBeat: 253
+    effectName: 
+  - startBeat: 256
+    endBeat: 257
+    effectName: 
+  - startBeat: 259
+    endBeat: 260
+    effectName: 

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5889041449056461768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5889041449056461770}
+  - component: {fileID: 5889041449056461771}
+  - component: {fileID: 5889041449056461773}
+  m_Layer: 0
+  m_Name: danceString_R
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5889041449056461770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889041449056461768}
+  m_LocalRotation: {x: -0.24051082, y: -0.80306894, z: -0.015051324, w: 0.54498464}
+  m_LocalPosition: {x: 0.40152723, y: 0.8977143, z: 0.062431335}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -16.638, y: -115.04, z: 22.709}
+--- !u!114 &5889041449056461771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889041449056461768}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a745537f41cbf4e8cec90f11cecc22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  local: 0
+  offset: {x: 0, y: 0, z: 0}
+  mirrorRotation: 1
+  autoOffset: 0
+--- !u!114 &5889041449056461773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889041449056461768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bea94fcf7f1244d90eb2b50691491f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementCopyName: mixamorig:RightHand
+  pointTarget: {fileID: 3443858289912441175, guid: 59b443de0a3d53548b82a4d74cbd40e5, type: 3}
+  targetShader: {fileID: -6465566751694194690, guid: 31c2724f3683e2f46abb76b8b00d61ce, type: 3}
+  targetName: R
+  normalColor: {r: 0.6792453, g: 0.45163575, b: 0.05446779, a: 1}
+  activeColor: {r: 0.8773585, g: 0.66113293, b: 0.11173906, a: 1}
+  arrow: {fileID: 5167928925541384450, guid: 609ac61b2817ba645a150afc8a0cf6c2, type: 3}
+  targetLine: {fileID: 1055841465796626562, guid: 95e541d776f910443a2c4f397184393b, type: 3}
+  stringStartPoint: {fileID: 5429998268541189276, guid: feba0b693dfaeb348809f6ebc6f44a85, type: 3}
+  useBeatPlayersBeatsToTarget: 1
+  beatsToTarget: 4
+  stringResolution: 5
+  beatCount: 0
+  doupleBeatCount: 0
+  previewLenght: 4

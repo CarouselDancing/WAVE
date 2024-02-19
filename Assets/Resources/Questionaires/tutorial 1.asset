@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af51be9574c78c54891cdfbf43934024, type: 3}
+  m_Name: tutorial 1
+  m_EditorClassIdentifier: 
+  ID: tutorial
+  randomOrder: 0
+  firstRandom: 0
+  lastRandom: 0
+  done: Begin
+  questions:
+  - question: Thank you for participating in this experiment.
+    effect: 
+    onlyText: 1
+    showNumber: 1
+    firstNumber: 0
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers: []
+    startText: A
+    endText: B
+  - question: You are going to perform a short choreography twice with different
+      visualizations.
+    effect: hideTarget
+    onlyText: 1
+    showNumber: 0
+    firstNumber: 0
+    numberOfAnswers: 2
+    showAnswer: 0
+    answers: []
+    startText: 
+    endText: 
+  - question: In one try to dance  at the same time with a teacher avatar (left video).
+    effect: showTarget
+    onlyText: 1
+    showNumber: 0
+    firstNumber: 0
+    numberOfAnswers: 2
+    showAnswer: 0
+    answers: []
+    startText: 
+    endText: 
+  - question: In the other one you are part of a queue of avatars and try perform
+      the moves behindhand  (right video).
+    effect: 
+    onlyText: 1
+    showNumber: 0
+    firstNumber: 0
+    numberOfAnswers: 2
+    showAnswer: 0
+    answers: []
+    startText: 
+    endText: 
+  - question: Have fun!
+    effect: hideTarget
+    onlyText: 1
+    showNumber: 0
+    firstNumber: 0
+    numberOfAnswers: 2
+    showAnswer: 0
+    answers: []
+    startText: 
+    endText: 

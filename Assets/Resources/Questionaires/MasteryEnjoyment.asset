@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af51be9574c78c54891cdfbf43934024, type: 3}
+  m_Name: MasteryEnjoyment
+  m_EditorClassIdentifier: 
+  ID: M+E
+  randomOrder: 1
+  firstRandom: 1
+  lastRandom: 0
+  done: CONTINUE
+  questions:
+  - question: I felt capable while playing the game.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: -3
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers:
+    - Strongly Disagree
+    - Disagree
+    - Slightly disagree
+    - Neither disagree, neither agree
+    - Slightly agree
+    - Agree
+    - Strongly agree
+    startText: Strongly Disagree
+    endText: Strongly Agree
+  - question: I felt I was good at playing this game.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: -3
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers:
+    - Strongly Disagree
+    - Disagree
+    - Slightly disagree
+    - Neither disagree, neither agree
+    - Slightly agree
+    - Agree
+    - Strongly agree
+    startText: Strongly Disagree
+    endText: Strongly Agree
+  - question: I felt a sense of mastery playing this game.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: -3
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers:
+    - Strongly Disagree
+    - Disagree
+    - Slightly disagree
+    - Neither disagree, neither agree
+    - Slightly agree
+    - Agree
+    - Strongly agree
+    startText: Strongly Disagree
+    endText: Strongly Agree
+  - question: I was no longer aware of my surroundings while I was playing.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: -3
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers:
+    - Strongly Disagree
+    - Disagree
+    - Slightly disagree
+    - Neither disagree, neither agree
+    - Slightly agree
+    - Agree
+    - Strongly agree
+    startText: Strongly Disagree
+    endText: Strongly Agree
+  - question: I was fully focused on the game.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: -3
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers:
+    - Strongly Disagree
+    - Disagree
+    - Slightly disagree
+    - Neither disagree, neither agree
+    - Slightly agree
+    - Agree
+    - Strongly agree
+    startText: Strongly Disagree
+    endText: Strongly Agree
+  - question: I was immersed in the game.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: -3
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers:
+    - Strongly Disagree
+    - Disagree
+    - Slightly disagree
+    - Neither disagree, neither agree
+    - Slightly agree
+    - Agree
+    - Strongly agree
+    startText: Strongly Disagree
+    endText: Strongly Agree
+  - question: I enjoyed doing this activity very much
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: 1
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers: []
+    startText: Not at all true
+    endText: very true
+  - question: This activity was fun to do.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: 1
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers: []
+    startText: Not at all true
+    endText: very true
+  - question: I thought this was a boring activity.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: 1
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers: []
+    startText: Not at all true
+    endText: very true
+  - question: This activity did not hold my attention at all.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: 1
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers: []
+    startText: Not at all true
+    endText: very true
+  - question: I would describe this activity as very interesting.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: 1
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers: []
+    startText: Not at all true
+    endText: very true
+  - question: I thought this activity was quite enjoyable.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: 1
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers: []
+    startText: Not at all true
+    endText: very true
+  - question: While I was doing this activity, I was thinking about how much I enjoyed
+      it.
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: 1
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers: []
+    startText: Not at all true
+    endText: very true
+  - question: I felt like I was dancing
+    effect: 
+    onlyText: 0
+    showNumber: 1
+    firstNumber: 0
+    numberOfAnswers: 101
+    showAnswer: 0
+    answers: []
+    startText: 0%
+    endText: 100%
+  - question: 
+    effect: 
+    onlyText: 1
+    showNumber: 1
+    firstNumber: 0
+    numberOfAnswers: 7
+    showAnswer: 0
+    answers: []
+    startText: Not at all true
+    endText: very true
